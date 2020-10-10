@@ -1,1 +1,1 @@
-web gunicorn --pythonpath ope/backend/Routes:app
+web gunicorn --pythonpath bild_teste/backend/Routes:app
