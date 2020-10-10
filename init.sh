@@ -1,1 +1,1 @@
-python Routes.py
+python teste.py
