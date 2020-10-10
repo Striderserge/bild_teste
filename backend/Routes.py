@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request, redirect
+import os
 import requests, json
 import database_commands
 import mailing_system
@@ -67,4 +68,5 @@ def index():
 
 #Alterar para a conexão com servidor.
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0')
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
