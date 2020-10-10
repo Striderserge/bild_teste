@@ -44,3 +44,6 @@ Werkzeug==1.0.1
 wikipedia==1.4.0
 wrapt==1.12.1
 gunicorn==19.9.0
+pytest==5.2.1
+pytest-cov==2.8.1
+pylint-runner=0.5.4
