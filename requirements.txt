@@ -46,4 +46,4 @@ wrapt==1.12.1
 gunicorn==19.9.0
 pytest==5.2.1
 pytest-cov==2.8.1
-pylint-runner=0.5.4
+pylint-runner==0.5.4
