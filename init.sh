@@ -1,1 +1,1 @@
-python ./backend/Routes.py
+python bild_teste/backend/Routes.py
